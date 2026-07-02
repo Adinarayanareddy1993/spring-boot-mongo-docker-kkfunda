@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: pagadalaadi/my-app1
+        image: pagadalaadi/my-app1:1.1
         ports:
         - containerPort: 8080
         env:
